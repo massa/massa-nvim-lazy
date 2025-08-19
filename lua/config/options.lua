@@ -3,3 +3,4 @@
 -- Add any additional options here
 vim.opt.guifont = "VictorMono Nerd Font Mono:h10"
 vim.o.winborder = "rounded"
+vim.o.shell = "/bin/fish"
