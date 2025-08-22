@@ -23,6 +23,7 @@ return {
       "raku-navigator",
       "json-lsp",
       "jsonld-lsp",
+      "prettier",
       "mmdc",
       "htmx-lsp",
       "fish-lsp",
