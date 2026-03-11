@@ -16,7 +16,7 @@ return {
       "html",
       "javascript",
       "latex",
-      "norg",
+      -- "norg",
       "scss",
       "svelte",
       "tsx",
