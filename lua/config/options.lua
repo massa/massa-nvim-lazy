@@ -11,6 +11,7 @@ vim.opt.writebackup = true
 if vim.fn.isdirectory(backup_dir) == 0 then
   vim.fn.mkdir(backup_dir, "p")
 end
-vim.opt.guifont = "VictorMono Nerd Font Mono:h10"
+-- vim.opt.guifont = "VictorMono Nerd Font:h10"
+vim.opt.guifont = "IosevkaTermSlab Nerd Font:h10"
 vim.o.winborder = "rounded"
 vim.o.shell = "/bin/fish"
