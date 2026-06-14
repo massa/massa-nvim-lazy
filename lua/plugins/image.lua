@@ -1,23 +1,20 @@
 return {
-  {
-    "3rd/image.nvim",
-    opts = {
-      backend = "sixel", -- Force Sixel rendering
-      max_width = 100,
-      max_height = 12,
-      max_width_window_percentage = math.huge,
-      max_height_window_percentage = math.huge,
-      window_overlap_clear_enabled = true, -- Prevents ghost images when scrolling
-      integrations = {
-        markdown = {
-          enabled = true,
-          clear_in_insert_mode = false,
-          download_remote_images = true,
-          only_render_image_at_cursor = false,
-          filetypes = { "markdown", "vimwiki" },
-        },
-        html = { enabled = true },
+  "3rd/image.nvim",
+  opts = {
+    backend = "sixel",
+    integrations = {
+      html = {
+        enabled = true,
+      },
+      css = {
+        enabled = true,
       },
     },
+    max_width = nil,
+    max_height = nil,
+    max_window_window_width = nil,
+    max_window_window_height = nil,
+    window_overlap_clear_enabled = false, -- toggles images when windows overlap
+    window_overlap_clear_ft_exclude = { "cmp_menu", "wildmenu" },
   },
 }
