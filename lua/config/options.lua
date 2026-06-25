@@ -14,4 +14,4 @@ end
 -- vim.opt.guifont = "VictorMono Nerd Font:h10"
 vim.opt.guifont = "IosevkaTermSlab Nerd Font:h10"
 vim.o.winborder = "rounded"
-vim.o.shell = "/bin/fish"
+-- vim.o.shell = "/bin/fish"
